@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppHealth.Sample.MainPage"
+             Title="App Health">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+            <Label Text="Plugin.Maui.AppHealth"
+                   FontSize="26"
+                   FontAttributes="Bold" />
+            <Label x:Name="PlatformLabel"
+                   Text="Platform: unknown"
+                   TextColor="{AppThemeBinding Light=#555555, Dark=#BBBBBB}" />
+            <Label x:Name="StatusLabel"
+                   Text="Status: not inspected"
+                   FontSize="18"
+                   FontAttributes="Bold" />
+
+            <Label Text="Actions" FontAttributes="Bold" />
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="8" RowDefinitions="Auto,Auto" RowSpacing="8">
+                <Button Text="Inspect now" Clicked="OnInspectClicked" />
+                <Button Grid.Column="1" Text="Network only" Clicked="OnNetworkClicked" />
+                <Button Grid.Row="1" Text="Start watch" Clicked="OnStartWatchClicked" />
+                <Button Grid.Row="1" Grid.Column="1" Text="Stop watch" Clicked="OnStopWatchClicked" />
+            </Grid>
+
+            <HorizontalStackLayout Spacing="12">
+                <Switch x:Name="LoggingSwitch" IsToggled="True" Toggled="OnLoggingToggled" />
+                <Label Text="Enable logging" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <Label Text="Environment" FontAttributes="Bold" />
+            <Label x:Name="EnvironmentLabel" LineBreakMode="WordWrap" Text="Inspect to read device signals." />
+
+            <Label Text="Findings" FontAttributes="Bold" />
+            <Label x:Name="FindingsLabel" LineBreakMode="WordWrap" Text="No findings yet." />
+
+            <Label Text="Log" FontAttributes="Bold" />
+            <Border Stroke="{AppThemeBinding Light=#DDDDDD, Dark=#444444}"
+                    StrokeThickness="1"
+                    Padding="12"
+                    StrokeShape="RoundRectangle 8">
+                <Label x:Name="LogLabel"
+                       Text="Logging is enabled."
+                       FontSize="12"
+                       LineBreakMode="WordWrap" />
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

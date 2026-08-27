@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Plugin.Maui.AppHealth</id>
+    <version>1.0.0</version>
+    <title>.NET MAUI AppHealth Plugin</title>
+    <authors>NugetWorld</authors>
+    <owners>NugetWorld</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/NiladriPadhy/Plugin.Maui.AppHealth</projectUrl>
+    <description>Detect app, device, and environment problems in .NET MAUI on Android and iOS. Inspect battery, storage, memory, thermal state, network, and runtime conditions, then watch for changes.</description>
+    <releaseNotes>Initial release: inspect and watch battery, power mode, storage, memory, thermal, network, device, and app runtime problems on Android and iOS.</releaseNotes>
+    <copyright>Copyright © NugetWorld</copyright>
+    <tags>dotnet-maui maui app-health diagnostics battery storage memory thermal network android ios plugin</tags>
+    <readme>README.md</readme>
+    <repository type="git" url="https://github.com/NiladriPadhy/Plugin.Maui.AppHealth" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.Maui.Controls" version="10.0.20" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net10.0-android21.0">
+        <dependency id="Microsoft.Maui.Controls" version="10.0.20" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net10.0-ios15.0">
+        <dependency id="Microsoft.Maui.Controls" version="10.0.20" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/Release/net10.0/Plugin.Maui.AppHealth.dll" target="lib/net10.0/" />
+    <file src="bin/Release/net10.0/Plugin.Maui.AppHealth.xml" target="lib/net10.0/" />
+    <file src="bin/Release/net10.0/Plugin.Maui.AppHealth.pdb" target="lib/net10.0/" />
+    <file src="bin/Release/net10.0-android/Plugin.Maui.AppHealth.dll" target="lib/net10.0-android21.0/" />
+    <file src="bin/Release/net10.0-android/Plugin.Maui.AppHealth.xml" target="lib/net10.0-android21.0/" />
+    <file src="bin/Release/net10.0-android/Plugin.Maui.AppHealth.pdb" target="lib/net10.0-android21.0/" />
+    <file src="bin/Release/net10.0-ios/Plugin.Maui.AppHealth.dll" target="lib/net10.0-ios15.0/" />
+    <file src="bin/Release/net10.0-ios/Plugin.Maui.AppHealth.xml" target="lib/net10.0-ios15.0/" />
+    <file src="bin/Release/net10.0-ios/Plugin.Maui.AppHealth.pdb" target="lib/net10.0-ios15.0/" />
+    <file src="../../README.md" target="README.md" />
+    <file src="../../LICENSE" target="LICENSE" />
+  </files>
+</package>
