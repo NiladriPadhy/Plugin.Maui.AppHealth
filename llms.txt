@@ -5,7 +5,7 @@ Detect app, device, and environment problems in .NET MAUI. Inspect battery, stor
 Repository: https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
 NuGet: https://www.nuget.org/packages/Plugin.Maui.AppHealth
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-app-health
-Catalog: https://github.com/NiladriPadhy/NugetWorld
+Catalog: https://github.com/NiladriPadhy/MauiEssentials
 License: MIT
 
 ## Supported versions

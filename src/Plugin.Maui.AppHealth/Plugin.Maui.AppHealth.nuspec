@@ -4,14 +4,14 @@
     <id>Plugin.Maui.AppHealth</id>
     <version>1.0.1</version>
     <title>.NET MAUI AppHealth Plugin</title>
-    <authors>NugetWorld</authors>
-    <owners>NugetWorld</owners>
+    <authors>MauiEssentials</authors>
+    <owners>MauiEssentials</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/NiladriPadhy/Plugin.Maui.AppHealth</projectUrl>
     <description>Detect app, device, and environment problems in .NET MAUI on Android and iOS. Inspect battery, storage, memory, thermal state, network, and runtime conditions, then watch for changes.</description>
     <releaseNotes>Include the Buy Me a Coffee support section in the package README.</releaseNotes>
-    <copyright>Copyright © NugetWorld</copyright>
+    <copyright>Copyright © MauiEssentials</copyright>
     <tags>dotnet-maui maui app-health diagnostics battery storage memory thermal network android ios plugin</tags>
     <readme>README.md</readme>
     <repository type="git" url="https://github.com/NiladriPadhy/Plugin.Maui.AppHealth" />
