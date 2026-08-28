@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Plugin.Maui.AppHealth</id>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
     <title>.NET MAUI AppHealth Plugin</title>
     <authors>MauiEssentials</authors>
     <owners>MauiEssentials</owners>
@@ -10,7 +10,7 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/NiladriPadhy/Plugin.Maui.AppHealth</projectUrl>
     <description>Detect app, device, and environment problems in .NET MAUI on Android and iOS. Inspect battery, storage, memory, thermal state, network, and runtime conditions, then watch for changes.</description>
-    <releaseNotes>Include the Buy Me a Coffee support section in the package README.</releaseNotes>
+    <releaseNotes>Rebrand package metadata and catalog references to MauiEssentials.</releaseNotes>
     <copyright>Copyright © MauiEssentials</copyright>
     <tags>dotnet-maui maui app-health diagnostics battery storage memory thermal network android ios plugin</tags>
     <readme>README.md</readme>
