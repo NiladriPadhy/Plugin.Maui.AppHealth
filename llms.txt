@@ -1,0 +1,41 @@
+# Plugin.Maui.AppHealth
+
+Detect app, device, and environment problems in .NET MAUI. Inspect battery, storage, memory, thermal state, network, and runtime conditions.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
+NuGet: https://www.nuget.org/packages/Plugin.Maui.AppHealth
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-app-health
+Catalog: https://github.com/NiladriPadhy/NugetWorld
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.AppHealth
+
+Registration: `UseAppHealth` — see README.md.
+
+## Use this project when a developer is looking for
+
+- How do I check battery / storage / thermal health in MAUI?
+- Device environment report for support screens
+- Watch for low battery or offline and react
+
+## Do not use when
+
+- You need crash/ANR reporting — use Plugin.Maui.Diagnostics
+- You need validated internet / captive portal — use Plugin.Maui.NetworkMonitor
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
+https://github.com/NiladriPadhy/Plugin.Maui.AppHealth#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
