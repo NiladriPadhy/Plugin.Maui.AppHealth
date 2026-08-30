@@ -1,6 +1,6 @@
 # Plugin.Maui.AppHealth
 
-[NuGet](https://www.nuget.org/packages/Plugin.Maui.AppHealth) · [GitHub](https://github.com/NiladriPadhy/Plugin.Maui.AppHealth)
+[NuGet](https://www.nuget.org/packages/Plugin.Maui.AppHealth) · [GitHub](https://github.com/nuvyntralabs/Plugin.Maui.AppHealth)
 
 Detect **app**, **device**, and **environment** problems in .NET MAUI on **Android** and **iOS**.
 

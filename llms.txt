@@ -2,10 +2,10 @@
 
 Detect app, device, and environment problems in .NET MAUI. Inspect battery, storage, memory, thermal state, network, and runtime conditions.
 
-Repository: https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
+Repository: https://github.com/nuvyntralabs/Plugin.Maui.AppHealth
 NuGet: https://www.nuget.org/packages/Plugin.Maui.AppHealth
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-app-health
-Catalog: https://github.com/NiladriPadhy/MauiEssentials
+Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
 ## Supported versions
@@ -33,9 +33,9 @@ Registration: `UseAppHealth` — see README.md.
 
 ## Documentation
 
-https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
-https://github.com/NiladriPadhy/Plugin.Maui.AppHealth#readme
+https://github.com/nuvyntralabs/Plugin.Maui.AppHealth
+https://github.com/nuvyntralabs/Plugin.Maui.AppHealth#readme
 
 ## Source
 
-https://github.com/NiladriPadhy/Plugin.Maui.AppHealth
+https://github.com/nuvyntralabs/Plugin.Maui.AppHealth
