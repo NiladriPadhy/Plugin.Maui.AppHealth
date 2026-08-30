@@ -2,15 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Plugin.Maui.AppHealth</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <title>.NET MAUI AppHealth Plugin</title>
     <authors>MauiEssentials</authors>
     <owners>MauiEssentials</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/nuvyntralabs/Plugin.Maui.AppHealth</projectUrl>
+    <projectUrl>https://nuvyntralabs.github.io/packages/plugin-maui-app-health/</projectUrl>
     <description>Detect app, device, and environment problems in .NET MAUI on Android and iOS. Inspect battery, storage, memory, thermal state, network, and runtime conditions, then watch for changes.</description>
-    <releaseNotes>Repository moved to nuvyntralabs. Package project and repository URLs updated.</releaseNotes>
+    <releaseNotes>Point PackageProjectUrl at the Nuvyntra Labs package page.</releaseNotes>
     <copyright>Copyright © MauiEssentials</copyright>
     <tags>dotnet-maui maui app-health diagnostics battery storage memory thermal network android ios plugin</tags>
     <readme>README.md</readme>
